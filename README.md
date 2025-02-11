@@ -14,11 +14,22 @@ The model predicts whether a review is **positive** or **negative**, helping in 
 ## 📂 Dataset  
 - The dataset consists of **Lenovo phone reviews** (scraped from online sources).  
 - The **target variable**: `1 (Positive)` or `0 (Negative)`.  
-- The dataset is preprocessed before training the model.  
+- The dataset is preprocessed before training the model.
+
+
+## 🛠 Project Structure
+📂 Sentiment-Analysis-of-Lenovo-Mobile-reviews
+├── 📜 Text_Processing.py         # Script to train the Logistic Regression model
+├── 📜 Model_Building.py             # Script to predict sentiment for new reviews
+├── 📜 Model_prediction.py       # Text preprocessing functions
+├── 📜 Classifier.pkl  # Saved trained model
+├── 📜 tfidfModel.pkl   # TF-IDF vectorizer
+├── 📜 K8reviews.csv            # Raw dataset
+├── 📜 Cleaned_data.csv            # Cleaned reviews dataset
+└── 📜 README.md              # Project documentation (You are here!)
 
 ---
 
-## 🛠 Installation  
 
 ### **🔹 1️⃣ Clone the Repository**  
 ```sh
