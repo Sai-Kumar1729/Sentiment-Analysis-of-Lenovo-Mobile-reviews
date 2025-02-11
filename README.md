@@ -22,5 +22,5 @@ The model predicts whether a review is **positive** or **negative**, helping in 
 
 ### **🔹 1️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/Sai-Kumar1729/Sentiment-Analysis-of-Lenovo-Mobile-reviews.git
+[git clone https://github.com/Sai-Kumar1729/Sentiment-Analysis-of-Lenovo-Mobile-reviews.git]
 cd lenovo-review-analysis
